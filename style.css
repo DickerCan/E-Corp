@@ -1,0 +1,123 @@
+@font-face { font-family: 'Raleway Black';
+             src: url('Raleway-Black.ttf') format('truetype'); }
+*{padding:0;margin:0;}
+body{
+    font-family: Raleway Black;
+    background-color: #3d3d3d;
+}
+td{
+   font-size: 16px;
+}
+table{
+     width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+}
+#gif{
+    width: 333px;
+    height: 200px;
+    background: url(Pictures/E_Corp.jpg);
+    float: right;
+}
+#gif:hover{
+    background: url(Pictures/E_Corp.gif);
+
+}
+#menü{
+    float: left;
+    width: 200px;
+    height: 2000px;
+    background-color: #2d2d2d;
+}
+#logo{
+    height: ;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #000000;
+}
+#banner{
+    color: white;
+    height: 202px;
+    width: 100%;
+    background-color: #000000;
+}
+#banner img{
+    height: 160px;
+    margin-left: 20%;
+}
+nav.vertical{
+  position:relative;
+  width:200px;
+}
+/* Alle ul */
+nav.vertical ul{
+  list-style: none;
+}
+/* Alle li */
+nav.vertical li{
+  position:relative;
+}
+/* Alle a */
+nav.vertical a{
+  display :block;
+  color: #eee;
+  text-decoration: none;
+  padding: 10px 15px;
+  background: #2d2d2d;
+  transition: 0.2s;
+}
+/* Alle a hover */
+nav.vertical li:hover > a{
+  background: #464646;
+}
+/* Verstecken ul */
+nav.vertical ul ul{
+  position:absolute;
+  left:0%;
+  top:0;
+  width:100%;
+  visibility:hidden;
+  opacity:0;
+  transition: transform 0.2s;
+  transform: translateX(50px);
+}
+/* Zeigen ul */
+nav.vertical li:hover > ul{
+  left:100%;
+  visibility:visible;
+  opacity:1;
+  transform: translateX(0px);
+}
+nav.vertical img{
+    height: 20px;
+}
+.prozent{
+    margin-left: 200px;
+    width: auto;
+    height: 50px;
+    background-color:aliceblue;
+    border-radius: 20px;
+}
+.prozent:hover  .balken {
+    width: 70%;
+    opacity: 1;
+}
+.balken{
+    height: 50px;
+    width: 0%;
+    background: url(Pictures/ladetexture.png);
+    background-size: contain;
+    transition: 1.5s;
+    opacity: 0;
+    border-radius: 20px;
+}
+.balken div{
+    padding: 11px;
+    width: 600px;
+}
