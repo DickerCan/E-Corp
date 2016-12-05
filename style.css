@@ -19,6 +19,7 @@ a{
 h2{
     text-align: center;
 }
+/*
 #gif{
     width: 333px;
     height: 200px;
@@ -28,15 +29,16 @@ h2{
 #gif:hover{
     background: url(Pictures/E_Corp.gif);
 
-}
+}*/
+/*Menüleiste*/
 #menü{
     float: left;
     width: 200px;
     height: 2000px;
     background-color: #2d2d2d;
 }
+/*Logo(E)*/
 #logo{
-    height: ;
     width: 100%;
     margin-bottom: 20px;
     background-color: #000000;
@@ -101,8 +103,7 @@ nav.vertical img{
     margin-left: 200px;
     width: auto;
     height: 50px;
-    background-color:aliceblue;
-    border-radius: 20px;
+    background-color: aliceblue;
 }
 .prozent:hover  .balken {
     width: 70%;
@@ -115,9 +116,18 @@ nav.vertical img{
     background-size: contain;
     transition: 1.5s;
     opacity: 0;
-    border-radius: 20px;
+    border-radius: 0px 20px 20px 0px;
 }
 .balken div{
     padding: 11px;
     width: 600px;
+}
+.content{
+    margin-left: 200px;
+    height: 1000px;
+}
+.content iframe{
+    height: 100%;
+    width: 100%;
+    border: none;
 }
