@@ -1,0 +1,14 @@
+
+.hov{
+    border: solid black 1px;
+    height: 100px;
+    background-color: red;
+}
+.hov:hover .bild{
+    background: #9a1313;
+}
+.bild{
+    border: solid black 1px;
+    height: 100px;
+    background: #145498;
+}

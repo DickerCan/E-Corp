@@ -4,7 +4,6 @@
 body{
     height: 100vh;
     font-family: Raleway Black;
-    background-color: #3d3d3d;
 }
 td{
    font-size: 16px;
@@ -104,7 +103,7 @@ nav.vertical img{
     margin-left: 200px;
     width: auto;
     height: 50px;
-    background-color: white;
+    background-color: aliceblue;
 }
 .prozent:hover  .balken {
     width: 70%;
@@ -125,10 +124,57 @@ nav.vertical img{
 }
 .content{
     margin-left: 200px;
-    height: calc(100vh - 202px);
+    height: calc(100vh - 260px);
 }
 .content iframe{
     height: 100%;
     width: 100%;
     border: none;
+}
+.tab{
+    border-bottom: solid 1px #b7b7b7;
+    margin: 10px;
+    padding: 10px;
+}
+.tab img{
+    margin-bottom: -5px;
+    height: 20px;
+}
+.tab a{
+    font-size: 14px;
+}
+.tab a:hover{
+    color: red;
+}
+.picture{
+    float: left;
+    border: none;
+}
+
+.allp{
+    margin: 10px;
+    height: 100vh;
+}
+.products{
+    float: left;
+    background-color: #fcfcfc;
+    height: 300px;
+    width: 225px;
+    margin: 10px;
+    border: solid 1px #383838;
+    border-radius: 5px;
+}
+.products h4{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    color: #ed1616;
+}
+.products p{
+    padding: 10px;
+    text-align: center;
+}
+.products img{
+    margin-left: 35px;
+    height: 60%;
 }

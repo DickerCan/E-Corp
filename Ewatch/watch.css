@@ -1,0 +1,26 @@
+.details{
+    padding: 10px;
+    border-left: solid 5px #b7b7b7;
+    margin-right: 10px;
+    margin-top: 140px;
+    float: left;
+    width: auto;
+}
+.details:hover + .picture{
+    width: 100%;
+}
+.details h3{
+    padding: 5px;
+}
+.details h4{
+    font-size: 40px;
+    font-style: italic;
+    color: #ed1616;
+}
+.details img{
+    border: solid 1px;
+    border-radius: 17.5px;
+}
+.details img:hover{
+    border: solid 1px #1881f0;
+}
